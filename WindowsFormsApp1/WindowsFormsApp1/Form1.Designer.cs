@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.btnMasterData = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -40,11 +42,31 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Master";
             // 
+            // btnMasterData
+            // 
+            this.btnMasterData.Location = new System.Drawing.Point(237, 134);
+            this.btnMasterData.Name = "btnMasterData";
+            this.btnMasterData.Size = new System.Drawing.Size(75, 23);
+            this.btnMasterData.TabIndex = 1;
+            this.btnMasterData.Text = "Master";
+            this.btnMasterData.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(360, 220);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnMasterData);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +78,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnMasterData;
+        private System.Windows.Forms.Label label2;
     }
 }
 
