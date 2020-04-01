@@ -38,7 +38,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Master";
+            this.label1.Text = "Branch";
             // 
             // Form1
             // 
