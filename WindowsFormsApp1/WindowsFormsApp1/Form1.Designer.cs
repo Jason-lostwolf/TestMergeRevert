@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBranch = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -42,14 +42,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Branch";
             // 
-            // button1
+            // btnBranch
             // 
-            this.button1.Location = new System.Drawing.Point(235, 204);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBranch.Location = new System.Drawing.Point(235, 204);
+            this.btnBranch.Name = "btnBranch";
+            this.btnBranch.Size = new System.Drawing.Size(75, 23);
+            this.btnBranch.TabIndex = 1;
+            this.btnBranch.Text = "button1";
+            this.btnBranch.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -66,7 +66,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBranch);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -78,7 +78,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBranch;
         private System.Windows.Forms.Label label2;
     }
 }
